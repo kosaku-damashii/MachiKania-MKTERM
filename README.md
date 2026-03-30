@@ -13,6 +13,14 @@ UARTを接続する際には、信号の電圧レベルが同じであれば、G
 <img width="1499" height="1361" alt="image" src="https://github.com/user-attachments/assets/5e84f3e1-135e-4241-ae71-84d03dcb997d" />
 
 〇使い方<BR>
-MachiKania type PUの横80文字モードを使って表示している。ただし、このモードではカラー表示は出来ずモノクロになる点に注意。<BR>
+<注意点><BR>
+MachiKania type PUの横80文字モードを使って表示している。ただし、このモードではカラー表示は出来ずモノクロになる。<BR>
 現状、最低限のコントロールコードについては実装されているので、コマンドラインの操作は出来るが、エスケープシーケンスは未対応なので、エディタなどについては正常に操作出来ない。<BR>
-制御文字の表示は、例えば、ESCの場合は"^["と２文字で表示される。
+制御文字の表示は、例えば、ESCの場合は"^["と２文字で表示される。<BR>
+
+<CapsLockを起動時にOFFする方法><BR>
+MACHIKAP.INI の 「CAPSLOCK」をコメントアウト（先頭に'#'を追加）して起動すると、CapsLockをOFFすることが出来る。<BR>
+
+<自動実行について><BR>
+自動起動したいファイル（KMTERAM.BAS）をSDカードのルートディレクトリに「MACHIKAP.BAS」という名前で保存すると、起動時に自動的に実行されます。
+詳しくは、本家サイト ( http://www.ze.em-net.ne.jp/~kenken/machikania/typep.html )の「自動実行プログラムについて」を参照。<BR>
