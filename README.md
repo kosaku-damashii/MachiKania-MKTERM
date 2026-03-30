@@ -12,6 +12,11 @@ UARTを接続する際には、信号の電圧レベルが同じであれば、G
 
 <img width="1499" height="1361" alt="image" src="https://github.com/user-attachments/assets/5e84f3e1-135e-4241-ae71-84d03dcb997d" />
 
+MachiKania type PU miniの外部入出力のピン配置は下記の通り。
+なお、5VはUARTの接続には使用しないが、MachiKania type PU miniのDC端子に直結しているので、ホストマイコンボードからこの5Vピンに給電してMachiKania type PU miniを動作させることも出来ると思われる。
+<img width="533" height="347" alt="image" src="https://github.com/user-attachments/assets/921aa8d3-e564-4aca-8df2-0a95d741f04d" />
+
+
 〇使い方<BR>
 <注意点><BR>
 MachiKania type PUの横80文字モードを使って表示している。ただし、このモードではカラー表示は出来ずモノクロになる。<BR>
