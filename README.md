@@ -1,7 +1,7 @@
 # MachiKania-MKTERM
 Terminal emulator on MachiKania type PU<BR>
 MachiKania type PU ( http://www.ze.em-net.ne.jp/~kenken/machikania/typepu.html )で動作するターミナルソフト。<BR>
-MachiKania type PU miniのみで動作確認しているが、MachiKania type PUでも動作すると思われる。<BR>
+MachiKania type PU mini や MachiKania type PU で動作する。<BR>
 
 〇接続方法<BR>
 PCなどをUSBシリアル変換などで繋ぎ表示とキー入力の端末にして操作しているホストマイコンボートに対して、PCの代わりにMachiKania type PUをUARTで接続する。その際、信号の出夏レベルが異なる場合(5V/3.3V)は、レベル変換モジュールを介してUART接続すること。<BR>
